@@ -1,54 +1,49 @@
-# 🎃 HacktoberFest 2022 🎃
+# hactoberfest22
+# Code-Collection-hacktoberfest2022
+This repository is for everyone who wants to participate in Hacktoberfest 2022. 
+<br>
+<h1>Hacktober Fest 2022 For Everyone!👋👋</h1>
+<br>
+<img src = "https://github.com/AnanyaDas162/LGMVIP-WEBDEV/blob/main/Images/download.jfif" alt= "Its time to contribute!!" height = "100%" width = "100%">
 
+<h6>Use this project to make your first contribution to an open source project on GitHub!!</h6>
+<br>
+<h1>What is Hacktoberfest?</h1>
+<h6>Hacktoberfest is a month-long celebration of open-source software by DigitalOcean that encourages participation in giving back to the open-source community. Developers get involved by completing pull requests, participating in events, and donating to open source projects.</h6>
+<br>
+<img src="Uno_HackFest22_Hero_V1-1024x395.jpg" style="display:flex; justify-content:center;">
+<br>
+<h1>Why should you contribute for Hacktoberfest??🤔🤔</h1>
+<h6>It encourages developers and also beginners to contribute to open source projects and practice programming by participating in solving problems across projects.</h6>
+<br>
+<img src="image32525252525252074.png">
+<br>
+<h1>How to participate??🤔🤔</h1>
+<h3>👇👇Steps to follow:👇👇</h3>
+<h3>1. Register for Hacktoberfest</h3>
+<a href="https://hacktoberfest.com/">Register Here</a>
+<h3>2. Add Project/Program in any Language you like:</h3>
+<h6>Add any of your simple or complex Project/Program in any language you like in this repository by clicking "Add File -> Create new File".</h6>
 
-
-Celebrate [Hacktoberfest](https://hacktoberfest.digitalocean.com/) by getting involved in the open source community by completing some simple tasks in this project.
-
-This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
-
-[https://alicewonderland.github.io/hacktoberfest/](https://alicewonderland.github.io/hacktoberfest/)
-
-## What is Hacktoberfest?
-A month-long celebration from October 1st - 31st sponsored by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open source developer community.
-
-[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
-
-## How to contribute to this project
-Here are 3 quick and painless ways to contribute to this project:
-
-* Add your name to the `CONTRIBUTORS.md` file
-* Add a profile page to the `profiles` directory
-* Create a simple "Hello, World" script in a language of your choice
-
-Choose one or all 3, make a pull request for your work and wait for it to be merged!
-
-## Getting started
-* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone your fork down to your local machine
-
-```markdown
-git clone https://github.com/your-username/hacktoberfest.git
-```
-
-* Create a branch
-
-```markdown
-git checkout -b branch-name
-```
-
-* Make your changes (choose from any task below)
-* Commit and push
-
-```markdown
-git add .
-git commit -m 'Commit message'
-git push origin branch-name
-```
-
-* Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
-* Wait for your PR review and merge approval!
-* __Star this repository__ if you had fun!
-
-## Choose from these tasks
-### 1. Add your name
-
+<h3>4. Create Pull Request:</h3>
+<h6>Once you have completed these steps, you are ready to start contributing by clicking on Create Pull Request.</h6>
+<h3>5. Give this Project a Star:</h3>
+<h6>If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.</h6>
+<h1>📝📝Notes :: 📝📝</h1>
+<h6>1. Don't Create Pull Request to update "readme.md" File.</h6>
+<h6>2. Upload or Create File in Specified Folders.</h6>
+<h6>3. If Specified Folder not Found then Create Folder and then Upload or Create File.</h6>
+<h6>4. In case you need to add an external package, install it by using npm. Don't push the complete package file here.</h6>
+<h3>
+      5. If you are uploading a Leetcode / GFG problem, then please mention it and upload it in the corresponding folder. And also give the file name same as the problem name.
+</h3>
+<h6></h6>
+<h6></h6>
+<h6></h6>
+<h6></h6>
+<h1>Contributors :: </h1>
+<br>
+<a href="[https://github.com/AnanyaDas162/Data-Structures-Algorithms-And-any-other-project-Hacktoberfest2022/graphs/contributors](https://www.google.com/url?sa=i&url=https%3A%2F%2Fitsfoss.com%2Fhacktoberfest-guide%2F&psig=AOvVaw0UabYGeJv72LBO5PQ4lh4d&ust=1665861671175000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMilr7u44PoCFQAAAAAdAAAAABAE)">
+</a>
+<h6>Thanks for contributing. It's an amazing experience to collaborate with you all!</h6>
+<br>
