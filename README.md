@@ -83,7 +83,7 @@ origin  https://github.com/Your_Username/DSA.git (push)
 Now, let's add a reference to the original [DSA](https://github.com/arnab2001/DSA) repository using
 
 ```sh
-$ git remote add upstream https://github.com/arnab2001/DSA.git
+$ git remote add upstream https://github.com/Diptomoy/DSA.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -96,8 +96,8 @@ In your case, you will see
 $ git remote -V
 origin    https://github.com/Your_Username/DSA.git (fetch)
 origin    https://github.com/Your_Username/DSA.git (push)
-upstream  https://github.com/arnab2001/DSA.git (fetch)
-upstream  https://github.com/arnab2001/DSA.git (push)
+upstream  https://github.com/Diptomoy/DSA.git (fetch)
+upstream  https://github.com/Diptomoy/DSA.git (push)
 ```
 
 ### 4. Sync it :recycle:
@@ -118,7 +118,7 @@ $ git push origin main
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/diptomoy/DSA/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/Diptomoy/DSA/pulls).
 
 ### 6. Create a new branch :bangbang:
 
