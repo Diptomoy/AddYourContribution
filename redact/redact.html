@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<script
+			src="https://kit.fontawesome.com/b21b8581b8.js"
+			crossorigin="anonymous"
+		></script>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;700&family=Lora:ital,wght@1,400;1,700&family=Prompt:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Redact</title>
+
+		<link rel="stylesheet" href="redact.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h2 class="wrapper-title">Redactr</h2>
+			<section class="text">
+				<h2 class="scramble-text"></h2>
+				<img src="./assets/typewriter.svg" alt="students" />
+			</section>
+			<section id="message" class="message">
+				<div class="container">
+					<div id="redact-content">
+						<h6 class="toRedactError">Text to redact*</h6>
+						<textarea
+							class="textarea"
+							name="text"
+							id="toRedact"
+							rows="10"
+						></textarea
+						><br /><br />
+
+						<h6 class="toScrambleError">Word(s) to scramble*</h6>
+						<input
+							id="toScramble"
+							type="text"
+							placeholder="List of words to scramble separated by a space"
+						/><br />
+						<br />
+						<h6 class="toReplaceError">Replacement Character(s)</h6>
+						<input
+							id="replacement-field"
+							type="text"
+							placeholder="eg: #, @, $, &, * "
+						/>
+						<br /><br />
+
+						<button id="redact-btn" class="btn">Redact</button>
+					</div>
+
+					<div id="redacted-content">
+						<div class="hero">
+							<h6>Redacted Text</h6>
+							<h6 class="copy">copy</h6>
+						</div>
+						<textarea
+							class="textarea redacted"
+							disabled
+							name="redract"
+							id="redacted"
+							rows="10"
+						></textarea>
+						<div class="stat">
+							<div class="stat-img">
+								<img src="./assets/time.png" alt="" />
+								<h2 id="time-taken"></h2>
+								<small>Time taken</small>
+							</div>
+							<div class="stat-img">
+								<img src="./assets/alpha.png" alt="" />
+								<h2 id="words-scanned"></h2>
+								<small>Word(s) Scanned</small>
+							</div>
+						</div>
+						<div class="stat">
+							<div class="stat-img">
+								<img src="./assets/search.png" alt="" />
+								<h2 id="words-matched"></h2>
+								<small>Word(s) Matched</small>
+							</div>
+							<div class="stat-img">
+								<img src="./assets/shuffle.png" alt="" />
+								<h2 id="chars-scrambled"></h2>
+								<small>Character(s) scrambled</small>
+							</div>
+						</div>
+						<div class="buttons">
+							<button id="back">
+								<i class="fas fa-solid fa-angle-left"></i> Back
+							</button>
+							<button id="refresh">
+								Redact again <i class="fas fa-sync-alt"> </i>
+							</button>
+						</div>
+
+						<div class="share">
+							share:
+							<i class="fab fa-facebook" id="facebook"></i>
+							<i class="fab fa-whatsapp-square" id="whatsapp"></i>
+							<i class="fab fa-twitter" id="twitter"></i>
+							<i class="fas fa-sms" id="sms"></i>
+						</div>
+						<div class="copied">
+							<h6>Copied!</h6>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<a href="https://github.com/chimoski/AddYourContribution" target="_blank"
+				>&copy copyright chimoski @hactoberfest <span class="date"></span>
+			</a>
+		</footer>
+
+		<!-- // ============= EEND DO NOT EDIT ============== // -->
+		<script src="redact.mjs" type="module"></script>
+		<!-- // ============= EEND DO NOT EDIT ============== // -->
+	</body>
+</html>
