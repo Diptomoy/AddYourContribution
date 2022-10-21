@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>guess and click</h1>
+            <h3>Fun game presents: game for fun</h3>
+        </div>
+        <div class="myImg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aF2efuTOPw6BmL8epcdf4YHuo7088sqVU5lE1GTGbQ&s"
+                alt="" class="profile">
+            <p id="playerName">Player name</p>
+            <div id="clearDetails" onclick="clearDetails()">&#x2716</div>
+        </div>
+    </header>
+
+    <!-- <nav style="color:aliceblue">
+        <ul>
+            <li>home</li>
+            <li>new game</li>
+            <li>levels</li>
+            <li>setting</li>
+        </ul>
+    </nav> -->
+
+    <main>
+        <div class="board">
+            <div class="bordBufferSpace">
+                <div id="mainBoard"></div>
+            </div>
+
+            <div class="quickScore"
+                style="color: white; align-self: flex-start; background-color: gray; border-radius: 5px; padding: 5px; margin: 10px; ">
+                <p>Level <span id="levels"> 1 </span></p>
+                <p>Battel <span id="battel"> 1 </span></p>
+                <p>Total Points <span id="tPoints"> 0 </span></p>
+                <p>Points per shot <span id="pPoints"> 0</span></p>
+                <p><span id="moves"> 0 </span> moves</p>
+                <p><span id="points"> 0 </span> points </p>
+            </div>
+        </div>
+
+    </main>
+    <footer class="board" id="achivements">
+        <!-- <div class="levelBlock" id="lev1">
+
+            <div class="innerStyle">
+                <div class="levelDesc">
+                    LEVEL 1
+                </div>
+
+                <div class="scoreStack">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aF2efuTOPw6BmL8epcdf4YHuo7088sqVU5lE1GTGbQ&s"
+                        alt="" id="" class="levelImg" />
+
+                    <div class="heighScore">
+
+                        <span class="points" id="pointsL1">35</span>
+                        <span class="pointsText">points</span>
+
+
+                        <div class="movesStyle">
+                            <span id="level1moves">35</span> /
+                            <span id="totalMovesL1">35</span>
+                            Moves
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="matrix">
+                64
+            </div>
+
+            <img src="Red-Ribbon-Badge-Transparent-PNG.png" alt="Red-Ribbon-Badge-Transparent-PNG.png" class="Batch" />
+
+        </div> -->
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
