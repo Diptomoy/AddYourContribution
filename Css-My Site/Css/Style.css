@@ -1,0 +1,69 @@
+body{
+    background-color: #EDFFEC;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.skull{
+    width: 450px;
+    height: 450px;
+    
+    
+}
+h1{
+   width: 20%;
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   font-size: 4.375rem;
+   color: #007965;
+}
+#upper_para{
+    font-family: 'Comfortaa', cursive;
+    font-size: smaller;
+    font-size: 1.5rem;
+    color: #00AF91;
+}
+#myimg{
+    width: 250px;
+    height: 250px;
+}
+.profile{
+    padding: 50px;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-color:#A7C4BC;
+    width: 7%;
+    border-width: 5px;
+}
+h2{
+    color: #007965;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+
+}
+h3{
+    color: #007965;
+    font-family: 'Baloo Chettan 2', cursive;
+    
+
+}
+.skill-row{
+    margin: 50%;
+    margin: 100px auto 100px auto;
+    
+}
+.brba{
+    width: 350px;
+    height: 350px;
+    
+}
+.beer{
+    width: 350px;
+    height: 350px;
+    
+}
+
+
+
