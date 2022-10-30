@@ -1,0 +1,24 @@
+#container {
+    position: relative;
+    width: 450px;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    perspective: 1000px;
+}
+#card {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 1.0s linear;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: all 1.0s linear;
+    -o-transform-style: preserve-3d;
+    -o-transition: all 1.0s linear;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+}
+#container:hover #card, #container.hover_effect #card {
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+}
