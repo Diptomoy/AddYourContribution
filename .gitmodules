@@ -1,0 +1,6 @@
+[submodule "Webscraping_pararius"]
+	path = Webscraping_pararius
+	url = https://github.com/Lavanyasuc31/Webscraping_pararius.git
+[submodule "Wishing-Diwali-with-Python"]
+	path = Wishing-Diwali-with-Python
+	url = https://github.com/Lavanyasuc31/Wishing-Diwali-with-Python.git
