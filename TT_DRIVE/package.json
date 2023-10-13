@@ -1,0 +1,19 @@
+{
+  "name": "tt-drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAkashRoy/TT-Drive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAkashRoy/TT-Drive/issues"
+  },
+  "homepage": "https://github.com/TheAkashRoy/TT-Drive#readme"
+}

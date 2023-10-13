@@ -1,0 +1,271 @@
+:root {
+    --box-size: 60px;
+    --box-gap: 5px;
+
+    --img-size: 50px;
+    --level-img-size: 70px;
+
+    /* background color */
+    --main-block-bg: rgb(36, 36, 36);
+    --main-child-bg: rgb(11, 10, 24);
+
+    /* text color white */
+    --text1: aliceblue;
+    --text2: rgb(223, 223, 223);
+    --text3: rgb(235, 235, 235);
+
+    /* text color blue */
+    --textB1: rgb(119, 221, 224);
+    --textB2: rgb(177, 218, 255);
+
+    /* shadow */
+    --sColor1: rgb(122, 122, 122);
+
+    /* gray shade */
+    --dColor1: black;
+    --dColor2: rgb(40, 40, 40);
+}
+
+body {
+    margin: 0;
+    background-color: var(--main-block-bg, black);
+}
+
+header {
+    padding: 10px;
+    background-color: var(--dColor1);
+    display: flex;
+}
+
+.header {
+    flex-grow: 1;
+}
+
+.header h1,
+.header h3 {
+    margin-top: 0;
+    font-weight: 600;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 35px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 3px gray;
+    color: var(--text1, white);
+}
+
+.header h3 {
+    font-size: 18px;
+    text-shadow: none;
+    color: var(--textB1, skyblue);
+}
+
+.myImg {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.myImg img {
+    margin-top: 5px;
+    height: var(--img-size, 100px);
+    width: var(--img-size, 100px);
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(43, 43, 43, 0.85);
+    border: 1px solid rgb(106, 105, 104);
+}
+
+.myImg #playerName {
+    margin: 2px;
+    color: var(--text2, white);
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    margin: 10px;
+    border: 1px solid var(--sColor1, rgb(130, 130, 130));
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+main .board {
+    position: relative;
+    background-color: var(--main-child-bg, black);
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.board .bordBufferSpace {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#mainBoard {
+    height: min-content;
+    width: min-content;
+    border: 2px solid var(--sColor1);
+    margin: 10px;
+    padding: var(--box-gap);
+
+    justify-self: center;
+
+    background-color: var(--main-child-bg);
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    gap: var(--box-gap);
+}
+
+#mainBoard .board-cell {
+    height: var(--box-size, 50px);
+    width: var(--box-size, 50px);
+    background-color: yellow;
+    padding: 2px;
+}
+
+main .score {
+    background-color: var(--main-child-bg, black);
+    width: fit-content;
+}
+
+.sep {
+    width: 80%;
+    height: 1px;
+}
+
+.innerStyle {
+    display: flex;
+    flex-direction: row;
+}
+
+.move {
+    text-align: center;
+    width: 50%;
+    border: 1px solid var(--text1);
+    padding: 5px;
+    display: flex;
+}
+
+.levelBlock {
+    width: fit-content;
+    margin: 0px 10px;
+    position: relative;
+    border: 1px solid var(--sColor1, rgb(133, 133, 133));
+    background: rgb(74, 74, 74);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+    box-shadow: 3px 3px 10px var(--dColor1);
+    color: var(--text2, rgb(228, 228, 228));
+}
+
+.scoreStack {
+    text-align: center;
+    margin: 10px;
+}
+
+.scoreStack .levelImg {
+    height: var(--level-img-size, 70px);
+    width: var(--level-img-size, 70px);
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.Batch {
+    position: absolute;
+    top: -25px;
+    right: -30px;
+    height: 80px;
+}
+
+.disapear {
+    display: none;
+}
+
+.points {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: var(--text1, bisque);
+}
+
+.movesStyle {
+    color: var(--textB2, skyblue);
+    white-space: nowrap;
+}
+
+.levelDesc {
+    color: var(--text3, bisque);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Geneva, sans-serif;
+    text-shadow: 1px 1px 2px var(--text2, gray);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border-top-left-radius: 20px;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.heighScore {
+    margin-top: 10px;
+}
+
+.matrix {
+    position: absolute;
+    color: var(--dColor1, black);
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 5px;
+    top: -14px;
+    right: -12px;
+    z-index: 1;
+}
+
+.containImage {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#achivements {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2px;
+    flex-wrap: wrap;
+}
+
+#achivements > * {
+    margin: 15px;
+}
+
+.quickScore > * {
+    margin: 0;
+    white-space: nowrap;
+}
+
+#clearDetails {
+    content: "&#x2716;";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 25%;
+    background: rgb(185, 185, 185);
+    padding: 2px;
+    color: rgb(130, 0, 0);
+    border-radius: 50%;
+}
+
+#clearDetails :hover {
+    cursor: pointer;
+}
