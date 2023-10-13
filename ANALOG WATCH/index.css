@@ -1,0 +1,44 @@
+#clockContainer {
+    background-color: red;
+    height: 45vw;
+    width: 45vw;
+    background:url(clock3.png) no-repeat;
+    background-size:100%;
+    border: 2px;
+    margin: 0 auto;
+    /* it will place the clock at the middle of the page */
+    position: relative;
+    /*for making responsive */
+}   
+
+#hour, #minute, #second {
+    position: absolute;
+    background:black; 
+    border-radius: 15px;
+    transform-origin: bottom;
+    /* transform property is  used for rotating the 3 hands from the centre of the screen*/
+} 
+#hour{
+    width: 1%;
+    height: 23%;
+    top: 28%;
+    left: 48.5%;
+    opacity: 0.8;
+}
+ #second{
+    width: 1%;
+    height: 30%;
+    top: 21%;
+    left: 48.5%;
+    opacity: 0.8;
+    
+
+}
+#minute{
+    width: 1%;
+    height: 33%;
+    top: 17%;
+    left: 48.5%;
+    opacity: 0.8;
+    
+} 
