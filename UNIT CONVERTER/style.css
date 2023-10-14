@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* it will place the elemrnt according to x axis alignment */
+    align-items: center;
+    /* it will place the elemrnt according to y axis alignment */
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    background-image: url('https://milebehind.files.wordpress.com/2013/11/tape.png?w=584');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    z-index: 2;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.container {
+    background-color: lightblue;
+    box-shadow: 0 0 4px 1px black;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container p {
+    font-family: 'Dosis', sans-serif;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.inputcontainer {
+    margin: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    width: 80%;
+    padding: 6px;
+
+}
+
+.inputcontainer label {
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    color: black;
+}
+
+.inputcontainer input {
+    border: none;
+    outline: none;
+    box-shadow: 0.1px 1px 2px 1px rgba(128, 128, 128, 0.775);
+    padding: 5px;
+    font-size: large;
+    border-radius: 2px;
+
+}
+/* -----------------making the page opaque---------------- */
+.container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.6;
+}
